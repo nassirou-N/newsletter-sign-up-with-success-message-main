@@ -120,3 +120,32 @@ picture img{
     }
 
 }
+
+.hidden{
+    visibility: hidden;
+}
+
+.container_succes{
+    max-width: 350px;
+    max-height: 300px;
+    background-color: var(--White);
+    border-radius: 25px;
+    padding: 25px 30px;
+    margin-bottom: 10px;
+    
+}
+
+.container_succes img{
+    width: 40px;
+    margin-bottom: 10px;
+}
+#email_sucess{
+    font-weight: bold;
+    color: var(--Dark_Slate_Grey);
+}
+
+.sucess{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}

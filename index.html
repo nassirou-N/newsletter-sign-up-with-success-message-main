@@ -11,7 +11,7 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>
       Frontend Mentor | Newsletter sign-up form with success message
@@ -31,7 +31,7 @@
   </head>
   <body>
     <!-- Sign-up form start -->
-    <div class="container">
+    <!-- <div class="hidden container">
       <div class="container_section left">
         <h1 class="title">Stay uPdated!</h1>
         <p>join 60,000+ product managers receiving monthly updates in:</p>
@@ -64,7 +64,10 @@
       </div>
       <div class="container_section right">
         <picture>
-          <source srcset="./assets/images/illustration-sign-up-desktop.svg" media="(min-width:734px)">
+          <source
+            srcset="./assets/images/illustration-sign-up-desktop.svg"
+            media="(min-width:734px)"
+          />
           <img
             src="./assets/images/illustration-sign-up-mobile.svg"
             alt=""
@@ -75,22 +78,21 @@
       </div>
     </div>
 
-    <!-- Sign-up form end -->
+    Sign-up form end -->
 
-    <!-- Success message start
+    <!-- Success message start-->
 
-  Thanks for subscribing!
+    <div class="container_succes">
+      <img src="./assets/images/icon-success.svg" alt="/" />
+      <h1>Thanks for subscribing!</h1>
+      <p>
+        A confirmation email has been sent to
+        <spam id="email_sucess">ash@gmail.com</spam>. Plase open it and. click the button  inside to confirm your subscription.
+      </p>
+      <button class="btn sucess">Dismiss message</button>
+    </div>
 
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button insideThe div element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.
-
-MDN Reference
-
- to confirm your subscription.
-
-  Dismiss message
-  
- Success message end -->
+   
 
     <div class="attribution">
       Challenge by
