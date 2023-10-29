@@ -122,7 +122,7 @@ picture img{
 }
 
 .hidden{
-    visibility: hidden;
+display: none;
 }
 
 .container_succes{

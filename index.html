@@ -31,7 +31,7 @@
   </head>
   <body>
     <!-- Sign-up form start -->
-    <!-- <div class="hidden container">
+    <div class=" container" id="container">
       <div class="container_section left">
         <h1 class="title">Stay uPdated!</h1>
         <p>join 60,000+ product managers receiving monthly updates in:</p>
@@ -48,7 +48,7 @@
             <img src="./assets/images/icon-list.svg" alt="" />And much more!
           </li>
         </ul>
-        <div class="form">
+        <form  class="form">
           <label for="email">Email address</label>
           <input
             type="email"
@@ -57,10 +57,10 @@
             id="email"
             class="input email"
           />
-          <button type="submit" class="input btn">
+          <button id="email_btn" type="submit" class="input btn">
             Subscribe to monthly newsletter
           </button>
-        </div>
+        </form>
       </div>
       <div class="container_section right">
         <picture>
@@ -78,11 +78,8 @@
       </div>
     </div>
 
-    Sign-up form end -->
-
-    <!-- Success message start-->
-
-    <div class="container_succes">
+   
+    <div class="hidden container_succes" id="succes">
       <img src="./assets/images/icon-success.svg" alt="/" />
       <h1>Thanks for subscribing!</h1>
       <p>
@@ -92,13 +89,12 @@
       <button class="btn sucess">Dismiss message</button>
     </div>
 
-   
-
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Nassirou</a>.
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
